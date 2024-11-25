@@ -24,7 +24,7 @@ jobs:
       # Paso 3: Construir la imagen Docker
       - name: Build Docker Image
         run: |
-          docker build -t MaxMartinez29/docker-resolve-frontend:latest -f ./../../Frontend/Dockerfile .
+          docker build -t MaxMartinez29/docker-resolve-frontend:latest -f Frontend/Dockerfile ./Frontend
 
       # Paso 4: Subir la imagen a Docker Hub
       - name: Push Docker Image to Docker Hub
