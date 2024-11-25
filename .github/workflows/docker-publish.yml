@@ -29,4 +29,4 @@ jobs:
       # Paso 4: Subir la imagen a Docker Hub
       - name: Push Docker Image to Docker Hub
         run: |
-          docker push MaxMartinez29/docker-resolve-frontend:latest
+          docker push maxmartinez29/docker-resolve-frontend:latest
